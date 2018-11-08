@@ -1,0 +1,143 @@
+body {
+    background-color: #1E1E1E;
+    font-family: 'Convergence';
+}
+
+.container {
+    background-color: white;
+    padding-bottom: 40px;
+    padding-top: 30px;
+}
+.bg-dark {
+    background-color: none;
+}
+nav {
+    background-color: #1E1E1E;
+    border-bottom-color: white;
+    border: 3px;
+    border-bottom-style: solid;
+}
+
+.navbar-brand {
+    font-size: 15px;
+    letter-spacing: 3px;
+}
+
+h1 {
+    font-size: 80px;
+    color: white;
+      text-align: center;
+    letter-spacing: 8px;
+}
+h2 {
+    font-size: 45px;
+    color: white;
+    text-align: center;
+    letter-spacing: 5px;
+}
+
+h3 {
+    font-size: 40px;
+    margin-top: 15px;
+}
+
+h5 {
+    color: white;
+    font-size: 22px;
+    letter-spacing: 5px;
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+h6 {
+    font-size: 20px;
+    text-align: center;
+    margin-top: 15px;
+}
+
+h7 {
+    font-size: 15px;
+    color: white;
+    letter-spacing: 3px;
+    position: absolute;
+    margin-bottom: 25px;
+    left: 10%;
+}
+
+li {
+    margin-left: 20px;
+    color: white;
+    letter-spacing: 4px;
+}
+
+.col-md-12 {
+    margin: 0px;
+}
+
+.image-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+     background-color: none;
+}
+
+.photo {
+    margin-top: 20px;
+}
+
+footer {
+    margin-top: 70px;
+    height: 100px;
+}
+
+.logo {
+    margin-left: 30px;
+    margin-top: 15px;
+}
+.side {
+    margin-top: 0px;
+}
+
+.link {
+    margin-top: 40px;
+}
+
+.link:hover {
+    opacity: 0.75;
+    
+}
+
+@media screen and (max-width: 619px) and (min-width: 300px) {
+    h1 {
+        font-size: 20px;
+        letter-spacing: 5px;
+    }
+    h2{
+        font-size: 13px;
+}
+    h7 {
+        font-size: 10px;
+    }
+}
+@media screen and (max-width: 999px) and (min-width: 620px) {
+    h1 {
+        font-size: 32px;
+        letter-spacing: 8px;
+    }
+    h2{
+        font-size: 30px;
+    }
+}
+
+@media screen and (max-width: 1300px) and (min-width: 1000px) {
+      h1 {
+        font-size: 55px;
+        letter-spacing: 8px;
+}
+    h2 {
+        font-size: 45px;
+    }
+}
